@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:outlineProvider="none">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="394dp"
+        android:layout_height="239dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="1dp"
+        app:cardBackgroundColor="#DCC5E8"
+        app:cardElevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableLayout
+            android:layout_width="383dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FAE9E9">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:paddingStart="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp">
+
+                <TextView
+                    android:id="@+id/titulotarjeta"
+                    android:layout_width="157dp"
+                    android:layout_height="wrap_content"
+                    android:background="#D9ECF4"
+                    android:paddingLeft="20dp"
+                    android:text="TextView"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="371dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/avatar"
+                    android:layout_width="3dp"
+                    android:layout_height="match_parent"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/descripcion"
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:maxWidth="195dp"
+                    android:paddingTop="0dp"
+                    android:text="TextView" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/represent"
+                    android:layout_width="163dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:paddingLeft="20dp"
+                    android:text="@string/representante" />
+
+                <TextView
+                    android:id="@+id/representante"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView" />
+            </TableRow>
+
+        </TableLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

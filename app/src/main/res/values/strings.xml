@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">ProyectoSemestral</string>
+    <string name="Titulo">Ingresa tus credenciales para ingresar</string>
+    <string name="ID">Ingresa tu username </string>
+    <string name="PSW">Ingresa tu contraseña</string>
+    <string name="inc">Iniciar Sesión</string>
+    <string name="notienescuenta">¿No tienes cuenta?,\n registrate pinchando en siguiente botón</string>
+    <string name="btnregistrar">Registrar</string>
+    <string name="Bienvenida">Estamos felices que vuelvas : </string>
+    <string name="StartWork">Comencemos con el trabajo \n ¿Que deseas hacer hoy ?</string>
+    <string name="tel">Ingresa tu teléfono</string>
+    <string name="pais">Indicanos de que pais eres</string>
+    <string name="dtos">Estos datos utilizaremos para contactarnos contigo mas adelante, deseas continuar?</string>
+    <string name="reg2">Continuar con el registro</string>
+    <string name="paisescrito">Escriba un pais aquí</string>
+    <string name="opc1">Empresa</string>
+    <string name="opc2">Persona Natural</string>
+    <string name="opc3">otros</string>
+    <string name="ingsex">Selecciona tu sexo</string>
+    <string name="sex1">Femenino</string>
+    <string name="sex2">Masculino</string>
+    <string name="identificate">Identificate</string>
+    <string name="sgte">Para el siguiente paso pincha en la imagen de mas abajo</string>
+    <string name="ingcorreo">Ingresa tu correo</string>
+    <string name="correo">correoejemplo@live.com</string>
+    <string name="nombre">ingresa tu nombre completo aquí abajo</string>
+    <string name="name">nombre</string>
+    <string name="lastname">Apellido</string>
+    <string name="registrate">Registrar</string>
+    <string name="valoracion">Estamos procesando tus datos, favor dejanos tu puntaje del registro</string>
+    <string name="envval">Enviar Valoracion</string>
+    <string name="infoprogress">Enviamos tus datos a un ejecutivo, él se contatará contigo y se evaluará tu registro a nuestros servicios</string>
+    <string name="volverallogin">Ir al loggin</string>
+    <string name="agregarusr">Agregar Usuario</string>
+    <string name="verusr">Ver Usuarios</string>
+    <string name="info">Ver info</string>
+    <string name="agregar">Agregar</string>
+    <string name="ver">Ver</string>
+    <string name="masinfo">Más información</string>
+    <string name="Informacion">Son personas naturales o jurídicas, públicas o privadas, con o sin fines de lucro, cuyas principales funciones son: asesorar individual o colectivamente a las familias en el proceso de postulación a un subsidio del MINVU, elaborar los proyectos técnicos de vivienda y/o de urbanización, prestar asesoría legal durante el desarrollo del proyecto y acompañar socialmente a las familias desde la postulación hasta el término definitivo del proyecto.
+
+Las Entidades de Asistencia Técnica para Programas Habitacionales tienen distintas denominaciones según el Programa Habitacional de que se trate:</string>
+    <string name="Quienes">¿Quienes somos?.. Somos un grupo de personas centradas en brindrar un excelente servicio para que tú no te quedes sin tu casa, sin tu ampliación
+    ni ningun requerimiento asociado a vivienda que tengan, junto a nosotros... Cumpliremos tus sueños.</string>
+    <string name="volver">Volver</string>
+    <string name="button">Button</string>
+    <string name="representante">Representante Legal</string>
+    <string name="title_activity_registronuevo">registronuevo</string>
+   <string name="como">como te enteraste de nosotros?</string>
+    <string name="inter">Internet</string>
+    <string name="amigo">Amigo</string>
+    <string name="empresa">Empresa</string>
+    <string name="otro">Otro</string>
+    <string name="selec">Selecciona si eres empresa o persona</string>
+</resources>

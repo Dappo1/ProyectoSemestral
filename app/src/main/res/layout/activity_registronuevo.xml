@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registronuevo">
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView5"
+        android:layout_width="203dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="97dp"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:text="@string/amigo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="315dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="109dp"
+        android:text="@string/como"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView2"
+        android:layout_width="203dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="97dp"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:text="@string/inter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView5" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView3"
+        android:layout_width="203dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="97dp"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:text="@string/otro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView4" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView4"
+        android:layout_width="203dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="97dp"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:text="@string/empresa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView2" />
+
+    <Spinner
+        android:id="@+id/spinneremp"
+        android:layout_width="252dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="41dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="270dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="65dp"
+        android:text="@string/selec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkedTextView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opciones">
+    <item>Chile</item>
+    <item>Argentina</item>
+    <item>Brasil</item>
+    <item>Colombia</item>
+    <item>Peru</item>
+    <item>Canada</item>
+    <item>Estados Unidos</item>
+    <item>Mexico</item>
+    <item>Venezuela</item>
+    <item>Uruguay</item>
+    <item>Paraguay</item>
+    <item>Costa Rica</item>
+    <item>Bolivia</item>
+    <item>Ahiti</item>
+    <item>Puerto Rico</item>
+    </string-array>
+</resources>
